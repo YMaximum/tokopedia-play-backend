@@ -103,7 +103,7 @@ Returns all videos
     - None
 - Headers:
     - Content-Type: application/json
--Success Response:
+- Success Response:
     - Code: 200
     - Content:
 
@@ -127,7 +127,7 @@ Returns all products with specified parameter `videoID`
     - None
 - Headers:
     - Content-Type: application/json
--Success Response:
+- Success Response:
     - Code: 200
     - Content:
 
@@ -154,7 +154,7 @@ Returns all comments with specified parameter `videoID`
     - None
 - Headers:
     - Content-Type: application/json
--Success Response:
+- Success Response:
     - Code: 200
     - Content:
 
@@ -186,7 +186,7 @@ Create a new Video and returns the new object
     ```
 - Headers:
     - Content-Type: application/json
--Success Response:
+- Success Response:
     - Code: 201
     - Content:
 
@@ -215,7 +215,7 @@ Create a new Product for the specified parameter `videoID` and returns the new o
     ```
 - Headers:
     - Content-Type: application/json
--Success Response:
+- Success Response:
     - Code: 201
     - Content:
 
@@ -244,7 +244,7 @@ Create a new Comment for the specified parameter `videoID` and returns the new o
     ```
 - Headers:
     - Content-Type: application/json
--Success Response:
+- Success Response:
     - Code: 201
     - Content:
 

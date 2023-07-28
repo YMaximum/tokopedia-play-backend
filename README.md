@@ -107,7 +107,7 @@ Returns all videos
     - Code: 200
     - Content:
 
-    ```json
+    ```
         [
 	        {
 		        "_id": string,
@@ -131,7 +131,7 @@ Returns all products with specified parameter `videoID`
     - Code: 200
     - Content:
 
-    ```json
+    ```
         [
 	        {
 		        "_id": string,
@@ -158,7 +158,7 @@ Returns all comments with specified parameter `videoID`
     - Code: 200
     - Content:
 
-    ```json
+    ```
         [
 	        {
 		        "_id": string,
@@ -178,7 +178,7 @@ Create a new Video and returns the new object
     - None
 - Data Params:
 
-    ```json
+    ```
         {
             "videoID": string,
 	        "thumbnailUrl": string
@@ -190,7 +190,7 @@ Create a new Video and returns the new object
     - Code: 201
     - Content:
 
-    ```json
+    ```
         {
             "videoID": string,
 	        "thumbnailUrl": string
@@ -205,7 +205,7 @@ Create a new Product for the specified parameter `videoID` and returns the new o
     - None
 - Data Params:
 
-    ```json
+    ```
         {
             "productID": string,
             "productUrl": string,
@@ -219,7 +219,7 @@ Create a new Product for the specified parameter `videoID` and returns the new o
     - Code: 201
     - Content:
 
-    ```json
+    ```
         {
             "productID": string,
             "productUrl": string,
@@ -236,7 +236,7 @@ Create a new Comment for the specified parameter `videoID` and returns the new o
     - None
 - Data Params:
 
-    ```json
+    ```
         {
             "username": string,
             "comment": string
@@ -248,7 +248,7 @@ Create a new Comment for the specified parameter `videoID` and returns the new o
     - Code: 201
     - Content:
 
-    ```json
+    ```
         {
             "username": string,
             "comment": string
